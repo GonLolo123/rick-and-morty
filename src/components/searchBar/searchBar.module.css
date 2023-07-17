@@ -1,0 +1,70 @@
+.searchContainer{ 
+   
+    display: flex;
+    
+}
+
+.searchInput{
+    width: 500px;
+    text-align: start;
+    position: flex;
+    padding: 12px 20px;
+    border: 2px solid #000000 ;
+    border-radius: 7px 0px 0px 7px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 5px #808080;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 25px;
+
+    
+}
+
+.searchIcon{
+    background-image: url("../../../assent/lupa.png") ;
+    background-size: 30px 30px;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 40px;
+    height: 40px;
+    fill: #d5d5d5;
+    
+    border-radius: 20px ;
+    border-color: rgba(0, 0, 0, 0);
+    
+    transition: .5s;
+    background-color: #00000000;
+    /* padding: 25px; */
+
+    
+}
+
+.searchIcon:hover{
+    scale:1.4;
+    transform: rotate(45deg);
+    border-color: rgb(0, 0, 0);
+}
+
+.searchIconContainer{
+    
+
+    /* border: 2px solid black; */
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 5px;
+    /* border: solid #d5d5d5; */
+    border-radius: 0px 7px 7px 0px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.searchIconContainer:hover{
+    box-shadow: inset 0 0 10px #d5d5d500;
+    
+}
+

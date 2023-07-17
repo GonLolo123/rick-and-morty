@@ -1,0 +1,98 @@
+
+.divConteiner{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.name{
+    /* background-color: blue; */
+    font-size: 100px;
+    display: flex;
+    color: #ffffff;
+    margin-top: 70px;
+    text-shadow: 0px 0px 1px #999, 
+    4px 3px 1px rgba(0,0,0,0.5), 
+    7px 3px 5px rgba(0,0,0,0.7), 
+    -2px 8px 20px rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.name:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 1px #2bff0094, 
+    4px 3px 1px rgba(0, 0, 0, 0.37), 
+    7px 3px 5px rgba(0, 0, 0, 0.493), 
+    -2px 8px 20px rgba(0, 255, 42, 0.575);
+}
+
+.imagen{
+    border: 2px solid white;
+    height: 50%;
+    border-radius: 250px;
+    transition: .5s;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
+    border: 1px solid black;
+    
+    
+}
+
+.conteinerDatos{
+    /* background-image: url("https://www.todofondos.net/wp-content/uploads/fondo-de-pantalla-de-720x1280.-fondo-de-pantalla-de-rick-y-morty.jpg"); */
+    background-image: url('../../../assent/fondodetail.jpg');
+    display: flex;
+    background-size: cover;
+    background-position: end;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    
+    font-size: 20px;
+    
+    flex: 1;
+    display: flex;
+    justify-content: top;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.conteinerImage{
+    /* background-image: url("https://w0.peakpx.com/wallpaper/793/655/HD-wallpaper-rick-and-morty-funny-minimal-rick-y-morty.jpg"); */
+    background-image: url("../../../assent/fondedetail2.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: top;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+
+flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos{
+    color: white;
+    text-shadow: 0px 0px 1px #999,
+    4px 3px 1px rgba(0,0,0,0.5), 
+    7px 3px 5px rgba(0,0,0,0.7), 
+    -2px 8px 20px rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.datos:hover{
+    transform: scale(1.3);
+    text-shadow: 0px 7px 0px #000000a2,
+    4px 3px 1px rgba(0,0,0,0.5), 
+    7px 3px 5px rgba(0,0,0,0.7), 
+    -2px 8px 20px rgba(0,0,0,0.4);
+}

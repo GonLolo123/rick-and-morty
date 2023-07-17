@@ -1,0 +1,70 @@
+.nav{
+    
+    display: flex;
+    /* margin: 1px; */
+    align-items: baseline;
+    background-color: #a39e9e8a;
+    padding: 10px;
+    /* border-radius: 100px; */
+    border-bottom: 2px solid rgb(255, 255, 255);
+    opacity: 100;
+
+}
+
+.conteinerButtons{
+    /* background-color: blue; */
+    justify-content: space-around;
+    display: flex;
+    flex: 1;
+
+}
+
+.conteinerSearch{
+    /* background-color: red; */
+    /* flex: 1; */
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.buton{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 5px; /* Espacio para la línea */
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+
+.buton::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 3px; /* Tamaño de la línea */
+    background-color: rgba(0, 0, 0, 0.74); /* Color de la línea */
+    transition: width 0.3s ease-in-out; /* Transición suave */
+    transform: translateX(-50%); /* Centrar la línea horizontalmente */
+}
+
+.buton:hover::after {
+    /* color: rgb(43, 42, 42); */
+    /* border-radius: 28px; */
+    /* padding: 10px; */
+   
+    
+    width: 100%;
+}
+
+.buton:hover{
+    scale: 1.5;
+    color: rgba(255, 255, 255, 0.856);
+    /* transform: skewX(-25deg); */
+    transform: translate(10px,3px);
+}
+

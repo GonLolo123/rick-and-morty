@@ -1,38 +1,23 @@
 .App {
-  text-align: center;
-}
+   display: center;
+   flex-direction: column;
+   align-items: center;
+   background-image: url("https://c.wallhere.com/photos/b6/f3/Rick_and_Morty_space-104672.jpg!d");
+   /* background-repeat: no-repeat; */
+   background-size:  100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+   
+   background-color: aqua;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   background-size: cover;
+    background-position: center;
 
-.App-link {
-  color: #61dafb;
+    height: 100vh;
+   
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+   margin-top: 15px;
+   margin-bottom: 10px;
+   height: 150px;
 }

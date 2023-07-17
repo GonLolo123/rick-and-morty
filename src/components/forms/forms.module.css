@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(31, 29, 30, 0.795);
+    /* padding: 100px; */
+    
+    /* font-size: 25px; */
+    
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    
+}
+
+.danger{
+    color: red;
+}
+
+.labelemail{
+    font-size: 50px;
+    text-shadow: 0px 0px 1px #777777, 
+    4px 3px 1px rgba(128, 125, 125, 0.5), 
+    7px 3px 5px rgba(122, 119, 119, 0.7), 
+    -2px 8px 20px rgba(116, 114, 114, 0.4);
+    color: #ffffff;
+}
+
+.labelpassword{
+    font-size: 50px;
+    text-shadow: 0px 0px 1px #777777, 
+    4px 3px 1px rgba(128, 125, 125, 0.5), 
+    7px 3px 5px rgba(122, 119, 119, 0.7), 
+    -2px 8px 20px rgba(116, 114, 114, 0.4);
+    color: #ffffff;
+}
+
+
+.input{
+    font-size: 40px;
+
+    margin-bottom: 2px;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.divForms{
+    display: flex;
+    flex-direction: column;
+    background-image :url('../../../public/Portal.png');
+    background-position: center;
+    background-color: rgba(63, 63, 63, 0.521);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding: 200px 100px 200px 100px;
+    border-radius: 300px;
+    border: 10px solid white;
+
+    
+}
+
+
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonSubmit{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+    transition: .8s ease;
+    border: 2px solid green;
+}
+
+.buttonSubmit::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to 
+    right,#0fd850 0%, #f9f047 100%);
+    transition:.8s ease;
+    display: block;
+    z-index: -1;
+}
+
+.buttonSubmit:hover::before{
+    width: 9em;
+}
+
+.buttonSubmit:hover{
+    scale: 1.25;
+    border:none;
+
+}

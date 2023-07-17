@@ -1,0 +1,12 @@
+.div{
+    background-color: red;
+    background-image: url('https://depor.com/resizer/fk7O_5gCMTqOhrc6vBUTGo0TD2E=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/S22SYNNZARBL3LBRBJLM5ANTAQ.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    transition: 2s ;
+    align-items: center;
+}
+
+.div:hover{
+    background-color: green;
+}
